@@ -1,6 +1,6 @@
 Construya en el lenguaje que usted desee, el cifrado rotn y vigenere para poder realizar los siguientes dos desafios.
 
-### Parte 1 
+### Desafio 1 
 
 el proceso de cifrado es el siguiente:
 
@@ -31,7 +31,7 @@ curl --location --request POST 'http://lab1.seguridad.xn--ensea-rta.cl/SendMsg' 
 --data-raw '{"msg":"cifrado(mensaje)"}'
 ```
 
-### Parte 2
+### Desafio 2
 
 Ejecute el siguiente mensaje
 
@@ -39,6 +39,6 @@ Ejecute el siguiente mensaje
 curl --location --request GET 'http://lab1.seguridad.xn--ensea-rta.cl/GetMsg' --header 'Content-Type: text/plain'
 ```
 
-con el mensaje recibido descifre el texto original aplicando los pasado para descifrar anteriormente pero cambiando la constraseña de  vigenere por hackpasswd
+con el mensaje recibido descifre el texto original aplicando los pasos anteriores pero cambiando la constraseña de  vigenere por hackpasswd
 
 
