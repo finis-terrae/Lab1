@@ -17,8 +17,12 @@ el proceso de descifrado es el siguiente:
 Mensaje  cifrado 
 
 - Rot(-18)
-- vigenere según el excel entregado con el password mysupersecretpassword
+- vigenere según con el password mysupersecretpassword
 - Rot(-5)
+
+![image info](https://tutorialesenlinea.es/uploads/posts/2015-04/thumbs/1430403275_cuadro_vigenere.webp)
+
+
 
 Mensaje de entrada
 
