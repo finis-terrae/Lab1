@@ -31,5 +31,6 @@ func GetMsg(w http.ResponseWriter, r *http.Request) {
 func Webservices() {
 	http.HandleFunc("/SendMsg", SendMsg)
 	http.HandleFunc("/GetMsg", GetMsg)
-	http.ListenAndServe(":8000", nil)
+	port := os.Getenv("PORT")
+	http.ListenAndServe("0.0.0.0:"+port, nil)
 }
