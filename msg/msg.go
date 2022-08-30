@@ -19,12 +19,12 @@ func (m *MSG) SetKey(key string) {
 }
 
 func (m *MSG) Encrypted() {
-	m.Msg = rot.Rot(m.Msg, 5)
+	m.Msg = rot.Rot(m.Msg, 8)
 	m.Msg = vigenere.Encipher(m.Msg, m.key)
-	m.Msg = rot.Rot(m.Msg, 18)
+	m.Msg = rot.Rot(m.Msg, 12)
 }
 func (m *MSG) Decrypted() {
-	m.Msg = rot.Rot(m.Msg, -18)
+	m.Msg = rot.Rot(m.Msg, -12)
 	m.Msg = vigenere.Decipher(m.Msg, m.key)
-	m.Msg = rot.Rot(m.Msg, -5)
+	m.Msg = rot.Rot(m.Msg, -8)
 }
