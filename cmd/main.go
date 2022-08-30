@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	lab "github.com/finis-terrae/Lab1"
+	lab "finis"
 )
 
 func main() {

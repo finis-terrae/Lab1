@@ -1,8 +1,8 @@
 package lab1
 
 import (
-	"github.com/finis-terrae/Lab1/rot"
-	"github.com/finis-terrae/Lab1/vigenere"
+	"finis/rot"
+	"finis/vigenere"
 )
 
 type MSG struct {
