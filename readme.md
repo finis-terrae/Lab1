@@ -6,7 +6,7 @@ el proceso de cifrado es el siguiente:
 
 Mensaje de entrada 
 
-- Rot(5)
+- Rot(2)
 - vigenere según el excel entregado con el password mysupersecretpassword
 - Rot(18)
 
