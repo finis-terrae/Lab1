@@ -11,10 +11,11 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
-          review_app_name: lab1-finis
+          
           
       - name: Push to dokku
         uses: dokku/github-action@master
         with:
-          git_remote_url: 'ssh://dokku@161.35.231.244:22/claudio'
+          review_app_name: lab1-finis
+          git_remote_url: 'ssh://dokku@161.35.231.244:22/lab1-finis'
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
