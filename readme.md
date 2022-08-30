@@ -47,4 +47,6 @@ curl --location --request GET 'https://finis.mmae.cl/GetMsg' --header 'Content-T
 
 con el mensaje recibido descifre el texto original aplicando los pasos anteriores pero cambiando la constraseña de  vigenere por finispasswd
 
+### Evaluación
 
+El primer equipo que lo entregue funcionando tendra automaticamente un 7, los demas deberan entregar su codigo en github acompañados de un video explicando su solucion el cual no puede durar mas de 4 minutos.
