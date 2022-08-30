@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	lab "finis"
+	lab "finis/msg"
 )
 
 func main() {
